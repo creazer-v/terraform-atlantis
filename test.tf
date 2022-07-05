@@ -18,11 +18,8 @@ terraform {
 }
 
 provider "aws" {
- region = "ap-southeast-2"
- 
-  assume_role {
-    role_arn = "arn:aws:iam::461554162639:role/ec2-iamprofile"
-  }
+ region = "ap-southeast-1"
+
 }
 
 
